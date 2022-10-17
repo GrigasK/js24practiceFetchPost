@@ -28,6 +28,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
     };
 
     sendData(PRROPERTY_ENDPOINT, data);
+    alert("Uploaded successfully");
   }
 });
 
