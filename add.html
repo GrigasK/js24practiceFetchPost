@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add data</title>
+    <script src="add.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerWrapper">
+        <h1>Add your property for sale</h1>
+        <h4>Yes, you can sell where you live and get cash!!</h4>
+      </div>
+    </header>
+    <div class="buttons">
+      <button id="nav-but">Go back to main page</button>
+    </div>
+    <form>
+      <p>URL:</p>
+      <input
+        id="url-input"
+        class="url-input"
+        type="text"
+        placeholder="Image URL"
+        style="width: 60%"
+      />
+      <br />
+      <br />
+      <p>Price:</p>
+      <input
+        id="price-input"
+        class="price-input"
+        type="number"
+        placeholder="Add price in EUR"
+        style="width: 60%"
+      />
+      <br />
+      <br />
+      <p>Description</p>
+      <textarea
+        id="description-input"
+        name="description-input"
+        style="width: 60%; height: 300px"
+        placeholder="Write something about property"
+      ></textarea>
+      <br />
+      <br />
+      <p>City:</p>
+
+      <input type="text" id="city-input" />
+      <br />
+      <button type="submit" class="data-input">Add porperty +</button>
+    </form>
+  </body>
+</html>

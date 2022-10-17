@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerWrapper">
+        <h1>Property list</h1>
+        <h4>See all the houses you want</h4>
+      </div>
+    </header>
+
+    <div class="divContainer">
+      <div class="buttons">
+        <div class="filterButtons">
+          <p>Filter:</p>
+          <button id="city" value="Vilnius">Vilnius</button>
+          <button id="city" value="Kaunas">Kaunas</button>
+          <button id="city" value="Klaipeda">Klaipėda</button>
+        </div>
+        <div>
+          <button id="add-property-nav" class="addData">Add property +</button>
+        </div>
+      </div>
+      <div id="cards" class="cards"></div>
+    </div>
+  </body>
+</html>
